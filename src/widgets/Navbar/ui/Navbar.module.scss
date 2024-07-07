@@ -1,15 +1,9 @@
-.App {
-  text-align: center;
-}
-
 .Navbar {
   width: 100vw;
   height: 60px;
 }
 
 .Navbar__menu {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -19,9 +13,4 @@
   padding: 10px;
   margin: 10px;
   border: none;
-}
-
-.h1-header {
-  text-align: start;
-  padding: 5vw 0 0 10vw;
 }
