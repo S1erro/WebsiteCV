@@ -5,13 +5,8 @@
 }
 
 .Navbar__menu {
-  list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
-}
+  justify-content: center;
 
-.Navbar__btn {
-  padding: 10px;
-  margin: 10px;
-  border: none;
+  list-style-type: none;
 }

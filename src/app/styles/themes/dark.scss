@@ -1,4 +1,9 @@
 .App.dark {
-  background: black;
-  color: azure;
+  --bg-color: #2E1A47; // Цвет фона
+  --text-color: #FFFFFF; // Цвет текста
+
+  --nav-btn-bg-color: #FFC107; // Цвет фона навигационных кнопок
+  --nav-btn-color: #885907; // Цвет текста навигационных кнопок
+
+  --theme-bg-icon: url("../../../images/sun-fog-svgrepo-com.svg"); // Иконка смены темы
 }
