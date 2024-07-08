@@ -1,12 +1,13 @@
 .Navbar {
   width: 100vw;
   height: 60px;
+  //background: grey;
 }
 
 .Navbar__menu {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .Navbar__btn {

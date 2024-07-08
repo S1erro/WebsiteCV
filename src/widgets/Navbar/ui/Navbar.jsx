@@ -1,32 +1,37 @@
-import React, {useState} from 'react';
-import MyButton from "../../../shared/ui/MyButton/MyButton";
+import MenuButton from "shared/ui/MenuButton/MenuButton";
 import {Link} from "react-router-dom";
 import cls from './Navbar.module.scss';
+import {useTheme} from "app/providers/ThemeProvider/lib/useTheme";
+import ThemeButton from "shared/ui/ThemeBtn/ThemeButton";
 
 const Navbar = () => {
+    const {toggleTheme} = useTheme();
+
     return (
     <header className={cls.Navbar}>
-        <ul className={cls.Navbar__menu}>
-            <li className={cls.Navbar__btn}>
-                <Link to="/main-page">
-                    <MyButton>Главная</MyButton>
-                </Link>
-            </li>
-            <li className={cls.Navbar__btn}>
-                <Link to="/projects-page">
-                    <MyButton>Проекты</MyButton>
-                </Link>
-            </li>
-            <li className={cls.Navbar__btn}>
-                <MyButton>Навыки</MyButton>
-            </li>
-            <li className={cls.Navbar__btn}>
-                <MyButton>Резюме</MyButton>
-            </li>
-            <li className={cls.Navbar__btn}>
-                <MyButton>Контакты</MyButton>
-            </li>
-        </ul>
+        <nav>
+            <ul className={cls.Navbar__menu}>
+                <li>
+                    <ThemeButton onClick={toggleTheme}/>
+                </li>
+                <li>
+                    <Link to="/main-page">
+                        <MenuButton>Главная</MenuButton>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/projects-page">
+                        <MenuButton>Проекты</MenuButton>
+                    </Link>
+                </li>
+                <li>
+                    <MenuButton>Резюме</MenuButton>
+                </li>
+                <li>
+                    <MenuButton>Контакты</MenuButton>
+                </li>
+            </ul>
+        </nav>
     </header>);
 };
 
