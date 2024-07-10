@@ -1,20 +1,24 @@
 .themeBtn {
-  font: var(--font-m);
-
   width: 35px;
   height: 35px;
   margin: 15px;
 
   border-radius: 100%;
-  border: solid var(--nav-btn-bg-color) 2px;
+  border: none;
 
   cursor: pointer;
 
-  background: var(--theme-bg-icon) var(--nav-btn-bg-color);
+  //background: var(--theme-bg-icon) var(--nav-btn-bg-color);
+  background: var(--theme-bg-icon) white;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .themeBtn:hover {
-  box-shadow: inset 0 0 0 0 var(--nav-btn-bg-color);
+  box-shadow: inset 0 0 0 2px var(--box-shadow-color);
+  background: var(--theme-bg-icon) #ddf1f1;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transition: box-shadow .4s, background-color .5s;
 }

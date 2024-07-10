@@ -1,9 +1,14 @@
 .App.dark {
-  --bg-color: #2E1A47; // Цвет фона
-  --text-color: #FFFFFF; // Цвет текста
+  --bg-color: #333232; // Цвет фона
+  --primary-color: #FFFFFF; // Основной цвет текста
+  --secondary-color: #FFFFFF; // Вторичный цвет текста
 
-  --nav-btn-bg-color: #FFC107; // Цвет фона навигационных кнопок
-  --nav-btn-color: #885907; // Цвет текста навигационных кнопок
 
+  // MenuButton styles
+  --nav-btn-color-hover: #359ea9; // Цвет текста при наведении
+  --nav-btn-color: #FFFFFF; // Цвет текста навигационных кнопок
+  --box-shadow-color: #4dd8e8; // Цвет рамок
+
+  // ThemeButton styles
   --theme-bg-icon: url("../../../images/sun-fog-svgrepo-com.svg"); // Иконка смены темы
 }

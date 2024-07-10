@@ -10,6 +10,7 @@ function App() {
         <div className={`App ${theme}`}>
             <Navbar func={toggleTheme}/>
             <AppRouter/>
+            NIFSDFPUIDSHPSODJGIOSDGSDIOG fsjdfnsdiofsdfnsdoifnsfsofs
         </div>
     );
 }

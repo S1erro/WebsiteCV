@@ -1,9 +1,14 @@
 .App.light {
-  --bg-color: #FFFFFF; // Цвет фона
-  --text-color: #000000; // Цвет текста
+  --bg-color: #D6D7DA; // Цвет фона
+  --primary-color: #131313; // Основной цвет текста
+  --secondary-color: #000000; // Вторичный цвет текста
 
-  --nav-btn-bg-color: #6200EE; // Цвет фона навигационных кнопок
-  --nav-btn-color: #cebaf1; // Цвет текста навигационных кнопок
 
+  // MenuButton styles
+  --nav-btn-color-hover: #359ea9; // Цвет рамок
+  --nav-btn-color: #131313; // Цвет текста навигационных кнопок
+  --box-shadow-color: #4dd8e8;
+
+  // ThemeButton styles
   --theme-bg-icon: url("../../../images/moon-fog-svgrepo-com.svg"); // Иконка смены темы
 }
