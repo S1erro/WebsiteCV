@@ -4,13 +4,12 @@ import {Navbar} from "widgets/Navbar";
 import "./styles/index.scss"
 
 function App() {
-    const {theme, toggleTheme} = useTheme();
+    const {theme} = useTheme();
 
     return (
         <div className={`App ${theme}`}>
-            <Navbar func={toggleTheme}/>
-            <AppRouter/>
-            NIFSDFPUIDSHPSODJGIOSDGSDIOG fsjdfnsdiofsdfnsdoifnsfsofs
+            <Navbar />
+            <AppRouter />
         </div>
     );
 }

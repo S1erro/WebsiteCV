@@ -7,8 +7,11 @@
   // MenuButton styles
   --nav-btn-color-hover: #359ea9; // Цвет рамок
   --nav-btn-color: #131313; // Цвет текста навигационных кнопок
-  --box-shadow-color: #4dd8e8;
+  --box-shadow-menu-btn-color: #4dd8e8; // Цвет рамок
+  --nav-btn-bg-color: #faf8f8; // Цвет заднего фона кнопок
 
   // ThemeButton styles
   --theme-bg-icon: url("../../../images/moon-fog-svgrepo-com.svg"); // Иконка смены темы
+  --theme-btn-bg-color: #88bde8;
+  --box-shadow-theme-btn-color: #FFFFFF;
 }

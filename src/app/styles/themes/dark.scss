@@ -5,10 +5,13 @@
 
 
   // MenuButton styles
-  --nav-btn-color-hover: #359ea9; // Цвет текста при наведении
+  --nav-btn-color-hover: #abcce8; // Цвет текста при наведении
   --nav-btn-color: #FFFFFF; // Цвет текста навигационных кнопок
-  --box-shadow-color: #4dd8e8; // Цвет рамок
+  --box-shadow-menu-btn-color: #437FB1; // Цвет рамок
+  --nav-btn-bg-color: #294F74; // Цвет заднего фона кнопок
 
   // ThemeButton styles
   --theme-bg-icon: url("../../../images/sun-fog-svgrepo-com.svg"); // Иконка смены темы
+  --theme-btn-bg-color: #84adea;
+  --box-shadow-theme-btn-color: #000000;
 }

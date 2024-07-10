@@ -10,5 +10,7 @@
 
   min-height: 100vh;
   text-align: center;
+
+  transition: background-color 2s ease-out, color 2s;
 }
 
