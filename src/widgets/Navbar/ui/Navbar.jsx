@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import cls from './Navbar.module.scss';
 import {useTheme} from "app/providers/ThemeProvider/lib/useTheme";
 import ThemeButton from "shared/ui/ThemeBtn/ThemeButton";
+import ModalWindow from "../../../shared/ui/Modal/ModalWindow";
 
 const Navbar = () => {
     const {toggleTheme} = useTheme();
@@ -28,7 +29,9 @@ const Navbar = () => {
                     <MenuButton>Резюме</MenuButton>
                 </li>
                 <li>
-                    <MenuButton>Контакты</MenuButton>
+                    <ModalWindow>
+                        Контакты
+                    </ModalWindow>
                 </li>
             </ul>
         </nav>
