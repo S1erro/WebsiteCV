@@ -1,7 +1,12 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .Navbar {
   width: 100vw;
   height: 60px;
-  //background: grey;
+  //background-color: #99d7de;
 }
 
 .Navbar__menu {
@@ -9,4 +14,16 @@
   justify-content: center;
 
   list-style-type: none;
+
+  margin-right: 250px;
+}
+
+.logo{
+  font-family: Consolas;
+  font-size: 28px;
+  align-self: center;
+
+  width: 250px;
+
+  text-decoration: underline;
 }

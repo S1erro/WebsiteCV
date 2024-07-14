@@ -11,7 +11,10 @@
   --nav-btn-bg-color: #faf8f8; // Цвет заднего фона кнопок
 
   // ThemeButton styles
-  --theme-bg-icon: url("../../../images/moon-fog-svgrepo-com.svg"); // Иконка смены темы
+  --theme-bg-icon: url("../../../shared/assets/themeIcons/moon-fog-svgrepo-com.svg"); // Иконка смены темы
   --theme-btn-bg-color: #88bde8;
   --box-shadow-theme-btn-color: #FFFFFF;
+
+  // ModalWindow styles
+  --modal-bg-color: #f6f6f6;
 }

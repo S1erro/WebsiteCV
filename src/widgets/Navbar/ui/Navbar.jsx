@@ -9,12 +9,12 @@ const Navbar = () => {
     const {toggleTheme} = useTheme();
 
     return (
-    <header className={cls.Navbar}>
-        <nav>
+    <header>
+        <div className={cls.logo}>
+            Асланов А.Ф.
+        </div>
+        <nav className={cls.Navbar}>
             <ul className={cls.Navbar__menu}>
-                <li>
-                    <ThemeButton onClick={toggleTheme}/>
-                </li>
                 <li>
                     <Link to="/main-page">
                         <MenuButton>Главная</MenuButton>
@@ -32,6 +32,11 @@ const Navbar = () => {
                     <ModalWindow>
                         Контакты
                     </ModalWindow>
+                </li>
+                <li>
+                    <ThemeButton
+                        onClick={toggleTheme}
+                    />
                 </li>
             </ul>
         </nav>
