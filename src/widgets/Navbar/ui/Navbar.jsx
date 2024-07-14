@@ -1,12 +1,12 @@
 import MenuButton from "shared/ui/MenuButton/MenuButton";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import cls from './Navbar.module.scss';
-import {useTheme} from "app/providers/ThemeProvider/lib/useTheme";
+import { useTheme } from "app/providers/ThemeProvider/lib/useTheme";
 import ThemeButton from "shared/ui/ThemeBtn/ThemeButton";
 import ModalWindow from "../../../shared/ui/Modal/ModalWindow";
 
 const Navbar = () => {
-    const {toggleTheme} = useTheme();
+    const { toggleTheme } = useTheme();
 
     return (
     <header>
@@ -25,9 +25,11 @@ const Navbar = () => {
                         <MenuButton>Проекты</MenuButton>
                     </Link>
                 </li>
-                <li>
-                    <MenuButton>Резюме</MenuButton>
-                </li>
+                {/*<li>*/}
+                {/*    <Link to="/cv-page">*/}
+                {/*        <MenuButton>Резюме</MenuButton>*/}
+                {/*    </Link>*/}
+                {/*</li>*/}
                 <li>
                     <ModalWindow>
                         Контакты

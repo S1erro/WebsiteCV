@@ -1,13 +1,15 @@
-import {AppRouter} from "./providers/router";
-import {useTheme} from "./providers/ThemeProvider/lib/useTheme";
-import {Navbar} from "widgets/Navbar";
+import { AppRouter } from "./providers/router";
+import { useTheme } from "./providers/ThemeProvider/lib/useTheme";
+import { Navbar } from "widgets/Navbar";
 import "./styles/index.scss"
 
 function App() {
-    const {theme} = useTheme();
+    const { theme } = useTheme();
 
+
+    
     return (
-        <div className={`App ${theme}`}>
+        <div className={`App ${ theme }`}>
             <Navbar />
             <AppRouter />
         </div>

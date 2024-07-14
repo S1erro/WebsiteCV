@@ -1,4 +1,7 @@
 .ModalOverlay {
+  font-family: Arial, sans-serif;
+  line-height: 58px;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -11,12 +14,31 @@
 }
 
 .ModalWindow {
+  height: 300px;
+
   position: relative;
-  width: 50%;
-  background: #cad7ee;
+  width: 30%;
+  color: #ccece6;
+  background: #4b126c;
   padding: 20px;
-  border-radius: 4px;
+  //border-radius: 100px;
   outline: none;
+
+  border: 10px solid skyblue;
+  border-image: linear-gradient(to right top, #d110e7, #e3bc0c, #d71c1c);
+  border-image-slice: 1;
+}
+
+.Contacts {
+  display: block;
+  height: 80%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 20%;
 }
 
 .ModalLink {
@@ -35,7 +57,12 @@
   background-size: contain;
 }
 
-.links {
-  display: flex;
-  justify-content: center;
+.ModalLink:hover {
+  margin-bottom: 30px;
+  transition: margin .2s;
 }
+
+h2 {
+  text-align: center;
+}
+

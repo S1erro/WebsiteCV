@@ -29,8 +29,10 @@ const ModalWindow = () => {
                     setModalIsOpen(false)
                 }}
             >
-                <div>
-
+                <div className={cls.Contacts}>
+                    <h2>Контактные данные:</h2>
+                    <p>Телефон: +7 977 906-65-19</p>
+                    <p>Почта: aslan4ik39@gmail.com</p>
                 </div>
 
                 <div className={cls.links}>

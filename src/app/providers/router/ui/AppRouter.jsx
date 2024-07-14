@@ -9,9 +9,7 @@ const AppRouter = () => {
             <Route path="*" element={<MainPage />} />
             <Route path="/main-page" element={<MainPage />}/>
             <Route path="/projects-page" element={<ProjectsPage />}/>
-            {/*<Route path="/contacts" element={<ModalWindow />}/>*/}
-            {/*<Route path="/main-page" element={<MainPage/>}/>*/}
-            {/*<Route path="/main-page" element={<MainPage/>}/>*/}
+            {/*<Route path="/cv-page" element={<CvPage />}/>*/}
         </Routes>
     );
 };
